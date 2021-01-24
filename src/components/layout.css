@@ -1,0 +1,249 @@
+
+
+nav div ul li {
+    background-color: transparent!important;
+}
+
+.NoDesktop {
+    display: none;
+}
+
+.NoMobile {
+    display: block;
+}
+
+/*
+Custom button style
+*/
+.nav-drop-inner{
+    position: absolute;
+    top:65vh;
+    left: 42%;
+    width: 100%;
+    visibility: hidden;
+    display: none;
+    z-index: 1000;
+}
+
+.jss3
+{
+    z-index: 2!important;
+    position: absolute!important;
+
+}
+.rpt-container{
+    animation: 1.5s ease 0s 1 normal none running rpt-bounce!important
+}
+
+.overlay {
+    position: absolute!important;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh!important;
+    width: 100vw!important;
+    z-index: 1!important;
+    -webkit-transition: background-color 4s ease-in-out;
+    -moz-transition: background-color 4s ease-in-out;
+    -o-transition: background-color 4s ease-in-out;
+    transition: background-color 4s ease-in-out;
+    display: none!important;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 2400px) {
+
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+    .overlay {
+        position: relative!important;
+        display: none!important;
+        visibility: hidden!important;
+        z-index: 0!important;
+    }
+
+}
+
+@media screen and (max-width: 1680px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+
+    .overlay {
+        position: relative!important;
+        display: none!important;
+        visibility: hidden!important;
+        z-index: 0!important;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+    .NoDesktop {
+        display: none;
+    }
+    
+    .NoMobile {
+        display: block;
+    }
+
+    .overlay {
+        position: absolute!important;
+        background-color: rgba(0,0,0,0.5);
+        height: 100vh!important;
+        width: 100vw!important;
+        z-index: 90!important;
+        display: initial!important;
+        visibility: visible!important;
+        -webkit-transition: background-color 4s ease-in-out;
+        -moz-transition: background-color 4s ease-in-out;
+        -o-transition: background-color 4s ease-in-out;
+        transition: background-color 4s ease-in-out;
+    }
+
+    
+}
+
+@media screen and (min-width: 1020px) and (min-height:1200px){
+    .nav-drop-inner {
+        display: block;
+        visibility: visible;
+        top: 75vh;
+        left: 65%;
+    }
+    .overlay {
+        position: absolute!important;
+        background-color: rgba(0,0,0,0.5);
+        height: 100vh!important;
+        width: 100vw!important;
+        z-index: 90!important;
+        -webkit-transition: background-color 4s ease-in-out;
+        -moz-transition: background-color 4s ease-in-out;
+        -o-transition: background-color 4s ease-in-out;
+        transition: background-color 4s ease-in-out;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    .nav-drop-inner{
+        display: block;
+        visibility: visible;
+    }
+    .overlay {
+        position: absolute!important;
+        background-color: rgba(0,0,0,0.5);
+        height: 100vh!important;
+        width: 100vw!important;
+        z-index: 90!important;
+        display: initial!important;
+        visibility: visible!important;        
+        -webkit-transition: background-color 4s ease-in-out;
+        -moz-transition: background-color 4s ease-in-out;
+        -o-transition: background-color 4s ease-in-out;
+        transition: background-color 4s ease-in-out;
+    }
+    
+#navbar-nav {
+    display: none!important;
+}
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+
+    #navbar-nav {
+        display: none;
+    }
+    .overlay {
+        position: absolute!important;
+        background-color: rgba(0,0,0,0.5);
+        height: 100vh!important;
+        width: 100vw!important;
+        z-index: 90!important;
+        display: initial!important;
+        visibility: visible!important;
+        -webkit-transition: background-color 4s ease-in-out;
+        -moz-transition: background-color 4s ease-in-out;
+        -o-transition: background-color 4s ease-in-out;
+        transition: background-color 4s ease-in-out;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    .nav-drop-inner{
+        left: 42%;
+        top: 60vh;
+        visibility: visible;
+     }
+     .overlay {
+        position: absolute!important;
+        background-color: rgba(0,0,0,0.5);
+        height: 100vh!important;
+        width: 100vw!important;
+        z-index: 90!important;
+        display: initial!important;
+        visibility: visible!important;
+        -webkit-transition: background-color 4s ease-in-out;
+        -moz-transition: background-color 4s ease-in-out;
+        -o-transition: background-color 4s ease-in-out;
+        transition: background-color 4s ease-in-out;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .NoDesktop {
+        display: block;
+    }
+    
+    .NoMobile {
+        display: none;
+    }
+    .overlay {
+        position: absolute!important;
+        background-color: rgba(0,0,0,0.5);
+        height: 100vh!important;
+        width: 100vw!important;
+        z-index: 90;
+        -webkit-transition: background-color 4s ease-in-out;
+        -moz-transition: background-color 4s ease-in-out;
+        -o-transition: background-color 4s ease-in-out;
+        transition: background-color 4s ease-in-out;
+    }
+    
+}
+
+

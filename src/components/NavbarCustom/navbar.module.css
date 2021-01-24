@@ -1,0 +1,40 @@
+/*===== NAVBAR =====*/
+.headerNavbar {
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; 
+}
+
+.navItem {
+    margin-right: 2rem;
+    color: white!important;
+    font-size: 22px;
+}
+
+.navItem a {
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: none;
+    color: white;
+}
+
+.navItem a:focus,
+.navItem a:focus-within,
+.navItem a:focus-visible,
+.navItem a:active {
+    color: white;
+}
+
+.CTAButton {
+    background-color: white!important;
+    background: white;
+    box-shadow: 0px 1px 10px 0px black;
+
+}
