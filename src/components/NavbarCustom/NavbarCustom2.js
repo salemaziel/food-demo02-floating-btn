@@ -14,7 +14,7 @@ import { FaHome } from "react-icons/fa";
 import { graphql, StaticQuery } from "gatsby";
 import Draggable from 'react-draggable'
 import { Planet } from 'react-planet';
-import Tooltip from "react-power-tooltip";
+//import Tooltip from "react-power-tooltip";
 
 function PaperButton2() {
   return (
@@ -213,9 +213,9 @@ const NavbarCustom2 = ({ data }) => {
 
 
              
-                <Tooltip position="top center"  textBoxWidth="200px" padding="20px" show={visable}>
+                {/*<Tooltip position="top center"  textBoxWidth="200px" padding="20px" show={visable}>
                     <span >Drag Anywhere On Screen</span>
-                  </Tooltip>
+                  </Tooltip>*/}
             </div>
 
             
