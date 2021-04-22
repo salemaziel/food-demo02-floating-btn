@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import NavbarCustom from './NavbarCustom/NavbarCustom'
+import NavbarCustom2 from './NavbarCustom/NavbarCustom2'
 
 const Header = ({ siteTitle }) => (
 <>
@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
     height: 'auto',
     zIndex: '99'
   }}>
-<NavbarCustom />
+<NavbarCustom2 />
 </div>
 
 

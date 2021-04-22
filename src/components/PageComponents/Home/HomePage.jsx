@@ -42,6 +42,7 @@ let indexQuery = graphql`
   query {
     siteYaml {
       logo_image
+      logo_image2
       background_photo
       site_title
       site_subtitle

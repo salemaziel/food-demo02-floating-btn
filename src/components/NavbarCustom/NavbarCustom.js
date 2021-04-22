@@ -86,7 +86,7 @@ const NavbarCustom = ({ data }) => {
 
           <Draggable
             onStop={() => {
-              if (deltaPosition.x == 0 && deltaPosition.y == 0) {
+              if (deltaPosition.x === 0 && deltaPosition.y === 0) {
                 settoggleMenu(!toggleMenu);
               }
               setdeltaPosition({ x: 0, y: 0 });
